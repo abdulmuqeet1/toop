@@ -34,7 +34,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/fg_consulting-logo.png" alt="FG Consulting Logo" className="w-10" />
+              <img src="fg_consulting-logo.png" alt="FG Consulting Logo" className="w-10" />
               <span className="font-display text-lg font-semibold text-white tracking-tight">
                 FG Consulting
               </span>
@@ -51,8 +51,7 @@ export default function Footer() {
                   href={s.url}
                   className="w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center text-white/50 hover:bg-primary hover:text-primary-foreground transition-all duration-200 text-xs uppercase font-semibold"
                 >
-                  {/* {s.name.toUpperCase()}  */}
-                  <img src={`/${s.name}.png`} alt={s.name} className="w-7 h-7" />
+                  <img src={`${s.name}.png`} alt={s.name} className="w-7 h-7" />
                 </a>
               ))}
             </div>

@@ -28,7 +28,7 @@ export default function Header() {
       {/* Main nav */}
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/fg_consulting-logo.png" alt="FG Consulting Logo" className="w-10" />
+          <img src="fg_consulting-logo.png" alt="FG Consulting Logo" className="w-10" />
           <span className="font-display text-lg font-semibold text-white tracking-tight">
             FG Consulting
           </span>

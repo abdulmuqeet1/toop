@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 // import Image from "nex"
 import { Phone, Mail, MapPin } from "lucide-react";
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 
 const services = [
   "Audit & Assurance",
@@ -104,7 +105,17 @@ export default function Footer() {
 
       <div className="border-t border-white/5">
         <div className="container py-5 text-center text-xs text-white/40">
-          © {new Date().getFullYear()} FG Consultant Global. All rights reserved.
+          © {new Date().getFullYear()} FG Consulting Global. All rights reserved. | 
+          {" "}<Tooltip>
+            <TooltipTrigger asChild>
+              <a href="https://abdulmuqeet.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white/40 transition-colors cursor-help">
+                Muqeet.dev
+              </a>
+            </TooltipTrigger>
+            <TooltipContent>
+              Developer Potfolio - Visit my website
+            </TooltipContent>
+          </Tooltip>
         </div>
       </div>
     </footer>

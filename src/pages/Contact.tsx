@@ -6,16 +6,16 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+971 4 354 2959", href: "tel:+97143542959" },
-  { icon: Mail, label: "Email", value: "info@fgconsultant.com", href: "mailto:info@fgconsultant.com" },
-  { icon: MapPin, label: "Address", value: "Office 805, Exchange Tower, Business Bay, Dubai, UAE", href: "#" },
-  { icon: Clock, label: "Working Hours", value: "Sun – Thu: 9:00 AM – 6:00 PM", href: "#" },
+  { icon: Phone, label: "Phone", value: "+971 55 364 3659", href: "tel:+971553643659" },
+  { icon: Mail, label: "Email", value: "fgconsultingfze@gmail.com", href: "mailto:fgconsultingfze@gmail.com" },
+  { icon: MapPin, label: "Address", value: "CWS-1V-223131 26th Floor, Amber Gem Tower, Ajman", href: "#" },
+  { icon: Clock, label: "Working Hours", value: "Mon – Sat: 10:00 AM – 9:00 PM", href: "#" },
 ];
 
 const offices = [
   { country: "UAE (Head Office)", city: "Dubai", address: "Office 805, Exchange Tower, Business Bay" },
-  { country: "Kuwait", city: "Kuwait City", address: "Regional Office" },
-  { country: "Bahrain", city: "Manama", address: "Regional Office" },
+  { country: "Oman", city: "Muscat", address: "Regional Office" },
+  { country: "Saudi Arabia", city: "Riyadh", address: "Regional Office" },
   { country: "Pakistan", city: "Lahore", address: "Regional Office" },
 ];
 
@@ -181,7 +181,7 @@ export default function Contact() {
           <ScrollReveal>
             <div className="rounded-2xl overflow-hidden border border-border shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785!2d55.2644!3d25.1885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDExJzE4LjYiTiA1NcKwMTUnNTEuOCJF!5e0!3m2!1sen!2sae!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.320991143279!2d55.42810327512135!3d25.394063777584762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590049d15669%3A0x5449d74b71a4a333!2sAmber%20Gem%20Tower%20-26th%20Floor%20Ajman!5e0!3m2!1sen!2sae!4v1776604576694!5m2!1sen!2sae"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -190,6 +190,8 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="FG Consultant Office Location"
               />
+              {/* <iframe  
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
             </div>
           </ScrollReveal>
         </div>

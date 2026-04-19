@@ -13,17 +13,19 @@ import {
   Heart,
 } from "lucide-react";
 
+
+
 const team = [
-  { name: "Sulaiman Al Jaser", credentials: "IACAML", role: "Partner, Kuwait Office" },
-  { name: "Bader AlBader", credentials: "CIFA, CSAA", role: "Partner, Kuwait Office" },
-  { name: "Prathap", credentials: "MBA, FRM, CIA", role: "Partner, Bahrain Office" },
-  { name: "Sameer Al Riyami", credentials: "MBA", role: "Partner, Oman Office" },
-  { name: "Rishi Chawla", credentials: "CA, MBA", role: "Partner, Audit & Assurance" },
-  { name: "Bhawna Chopra", credentials: "CA, MBA", role: "Partner, Tax Advisory" },
-  { name: "Rishi Aggarwal", credentials: "ACA, DISA", role: "Partner, Audit & Assurance" },
-  { name: "Mohammed Al Katheeri", credentials: "", role: "Partner, Advisory (Abu Dhabi)" },
-  { name: "Moin Ibrahim", credentials: "CA", role: "Director, Advisory" },
-  { name: "Vinit Gala", credentials: "", role: "Director, Tax" },
+  { name: "Fahad Ghafoor", credentials: "CA", role: "CEO | Auditor | Accountant | ERP Expert" },
+  { name: "Kashif Iqbal", credentials: "CA Finalist", role: "Auditor | Project Manager" },
+  { name: "Muhammad Ali", credentials: "CPA / CA Final", role: "Audit & Assurance | VAT & Corporate Tax Expert" },
+  { name: "Waqas Mehmood", credentials: "CMA | MA Economic", role: "Management Accountant | E-Commerce Expert" },
+  { name: "Abdul Wahab", credentials: "MS Electrical Engineering", role: "Project Manager" },
+  { name: "Malik Sadaqat", credentials: "BsIT", role: "Senior Frontend Developer" },
+  { name: "Abdul Muqeet", credentials: "BsIT", role: "Tech Lead" },
+  { name: "Adeela Khalid", credentials: "MSc. S.Sc | M.Ed", role: "Educational Consultant & Montessori Expert" },
+  { name: "Hiba Shaber", credentials: "BA", role: "Administrator" },
+  { name: "Ali Husnain", credentials: "CA Finalist", role: "Tax Expert" },
 ];
 
 const coreValues = [
@@ -36,11 +38,11 @@ const coreValues = [
 ];
 
 const milestones = [
-  { year: "2013", event: "Founded in Dubai, UAE with a vision to do the right thing" },
-  { year: "2016", event: "Expanded operations to Kuwait and Bahrain" },
-  { year: "2018", event: "Became FTA Approved Tax Agents in the UAE" },
-  { year: "2020", event: "Opened offices in Oman and India" },
-  { year: "2023", event: "Celebrated 10 years of trusted advisory services" },
+  { year: "2015", event: "Founded in Dubai, UAE with a vision to do the right thing" },
+  { year: "2018", event: "Expanded operations to Pakistan" },
+  { year: "2019", event: "Became FTA Approved Tax Agents in the UAE" },
+  { year: "2024", event: "Expanded operations in Oman and Saudia Arabia" },
+  { year: "2025", event: "Celebrated 10 years of trusted advisory services" },
 ];
 
 export default function About() {
@@ -89,7 +91,7 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: Globe, value: "4", label: "Regional Offices" },
-                  { icon: Users, value: "50+", label: "Team Members" },
+                  { icon: Users, value: "10+", label: "Team Members" },
                   { icon: Award, value: "500+", label: "Clients Served" },
                   { icon: CheckCircle, value: "10+", label: "Years Experience" },
                 ].map((s) => (

@@ -15,6 +15,7 @@ import {
   Globe,
   Award,
   CheckCircle,
+  Zap,
 } from "lucide-react";
 
 const services = [
@@ -23,7 +24,7 @@ const services = [
   { icon: Briefcase, title: "Business Advisory", desc: "Market research, feasibility studies, CFO support, capital raising and policy manuals." },
   { icon: Building2, title: "Company Incorporations", desc: "Company formation, offshore registered agents, liquidations support and corporate restructuring." },
   { icon: BookOpen, title: "Outsourced Accounting", desc: "End-to-end accounting and bookkeeping services tailored to your business needs." },
-  { icon: Handshake, title: "M&A Consulting", desc: "Strategic merger and acquisition consulting for growth-oriented businesses." },
+  { icon: Zap, title: "Digital Transformation", desc: "Modernize your business operations with technology-driven solutions."},
 ];
 
 const coreValues = [
@@ -39,7 +40,7 @@ const stats = [
   { value: "10+", label: "Years of Excellence" },
   { value: "500+", label: "Clients Served" },
   { value: "4", label: "Regional Offices" },
-  { value: "50+", label: "Expert Professionals" },
+  { value: "10+", label: "Expert Professionals" },
 ];
 
 const testimonials = [
@@ -60,7 +61,7 @@ export default function Home() {
               className="text-primary font-semibold text-sm tracking-widest uppercase mb-4 animate-reveal"
               style={{ animationDelay: "100ms" }}
             >
-              Audit · Tax · Accounting · Advisory
+              ERP · E-Com · Audit · Accounting · Tax · Advisory · Education · HR · Real Estate · PM
             </p>
             <h1
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] text-balance mb-6 animate-reveal"
@@ -74,7 +75,7 @@ export default function Home() {
               className="text-white/60 text-lg leading-relaxed max-w-xl mb-10 animate-reveal"
               style={{ animationDelay: "350ms" }}
             >
-              FG Consultant is one of the leading auditing and advisory firms in the UAE region, committed to integrity, precision, and exceptional client service.
+              FG Consultant is one of the leading firms in the UAE region, committed to integrity, precision, and exceptional client service.
             </p>
             <div
               className="flex flex-wrap gap-4 animate-reveal"
@@ -140,7 +141,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: Globe, label: "4 Regional Offices" },
-                  { icon: Users, label: "50+ Team Members" },
+                  { icon: Users, label: "10+ Team Members" },
                   { icon: Award, label: "FTA Approved Agents" },
                   { icon: CheckCircle, label: "ISO Standards" },
                 ].map((item) => (

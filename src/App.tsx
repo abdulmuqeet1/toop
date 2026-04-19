@@ -8,6 +8,7 @@ import Services from "./pages/Services.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import WhatsappWidget from "@/components/WhatsappWidget.tsx";
 
 const queryClient = new QueryClient();
 
@@ -16,6 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <WhatsappWidget />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />

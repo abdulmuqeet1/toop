@@ -17,22 +17,20 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy/95 backdrop-blur-md border-b border-white/5">
       {/* Top bar */}
       <div className="hidden md:flex items-center justify-end gap-6 container py-1.5 text-xs text-white/60">
-        <a href="tel:+97143542959" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-          <Phone size={12} /> +971 4 354 2959
+        <a href="tel:+971553643659" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+          <Phone size={12} /> +971 55 364 3659
         </a>
-        <a href="mailto:info@fgconsultant.com" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-          <Mail size={12} /> info@fgconsultant.com
+        <a href="mailto:fgconsultingfze@gmail.com" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+          <Mail size={12} /> fgconsultingfze@gmail.com
         </a>
       </div>
 
       {/* Main nav */}
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center font-display font-bold text-primary-foreground text-lg">
-            PB
-          </div>
+          <img src="/fg_consulting-logo.png" alt="FG Consulting Logo" className="w-10" />
           <span className="font-display text-lg font-semibold text-white tracking-tight">
-            FG Consultant
+            FG Consulting
           </span>
         </Link>
 

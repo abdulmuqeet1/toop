@@ -89,7 +89,7 @@ const serviceCategories = [
   {
     icon: Handshake,
     title: "M&A Consulting",
-    desc: "Strategic merger and acquisition consulting for growth-oriented businesses.",
+    desc: "Strategic merger and acquisition consulting for growth oriented businesses.",
     items: [
       { icon: Search, name: "Due Diligence" },
       { icon: Scale, name: "Deal Structuring" },
@@ -99,11 +99,40 @@ const serviceCategories = [
   {
     icon: Zap,
     title: "Digital Transformation",
-    desc: "Modernize your business operations with technology-driven solutions.",
+    desc: "Modernize your business operations with technology driven solutions.",
     items: [
       { icon: Zap, name: "Process Automation" },
       { icon: BarChart3, name: "ERP Implementation" },
       { icon: FileText, name: "Digital Strategy" },
+      { icon: FileText, name: "E Commerce" },
+      { icon: FileText, name: "Custom Software Development" },
+    ],
+  },
+  {
+    icon: Zap,
+    title: "E commerce",
+    desc: "Boost your sales potential with E commerce solutions.",
+    items: [
+      { icon: Zap, name: "Ecommerce Development" },
+      { icon: BarChart3, name: "Amazon" },
+      { icon: FileText, name: "Ebay" },
+      { icon: FileText, name: "Noon" },
+      { icon: FileText, name: "Etsy" },
+      { icon: FileText, name: "Social Media Platforms" },
+    ],
+  },
+  {
+    icon: Zap,
+    title: "ERP Solutions",
+    desc: "Empower your business operations with ERP implementation, support and revamping.",
+    items: [
+      { icon: Zap, name: "ERP Customize Web Applications" },
+      { icon: BarChart3, name: "SAP Business One" },
+      { icon: FileText, name: "Odoo" },
+      { icon: FileText, name: "Sage" },
+      { icon: FileText, name: "QuickBooks" },
+      { icon: FileText, name: "ZohoBooks" },  
+      { icon: FileText, name: "Others" },
     ],
   },
 ];
@@ -122,7 +151,7 @@ export default function Services() {
               <br />Tailored For You
             </h1>
             <p className="text-white/60 max-w-xl text-lg leading-relaxed">
-              From audit and tax to digital transformation, we provide comprehensive professional services to businesses across the UAE and the region.
+              From ERP, E Commerce, accounting, audit and tax to digital transformation, we provide comprehensive professional services to businesses across the UAE, Pakistan and the Gulf region.
             </p>
           </ScrollReveal>
         </div>

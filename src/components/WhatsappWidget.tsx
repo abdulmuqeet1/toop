@@ -13,8 +13,7 @@ export default function WhatsappWidget({ className }: Props) {
         src="/whatsapp.png"
         alt="WhatsApp"
         className="w-14 h-14 fixed bottom-5 right-5 cursor-pointer z-[1]"
-        onClick={() => window.open("https://wa.me/971582737125", "_blank")}
-        />
+      />
     </div>
   );
 }

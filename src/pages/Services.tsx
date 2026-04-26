@@ -25,6 +25,19 @@ import {
 
 const serviceCategories = [
   {
+    icon: Zap,
+    title: "Digital Transformation",
+    desc: "Modernize your business operations with technology driven solutions.",
+    items: [
+      { icon: Zap, name: "Integrated Solutions" },
+      { icon: Zap, name: "Process Automation" },
+      { icon: BarChart3, name: "ERP Implementation" },
+      { icon: FileText, name: "Digital Strategy" },
+      { icon: FileText, name: "E Commerce" },
+      { icon: FileText, name: "Custom Software Development" },
+    ],
+  },
+  {
     icon: Shield,
     title: "Audit & Assurance",
     desc: "Comprehensive audit services ensuring compliance and transparency.",
@@ -98,18 +111,6 @@ const serviceCategories = [
   },
   {
     icon: Zap,
-    title: "Digital Transformation",
-    desc: "Modernize your business operations with technology driven solutions.",
-    items: [
-      { icon: Zap, name: "Process Automation" },
-      { icon: BarChart3, name: "ERP Implementation" },
-      { icon: FileText, name: "Digital Strategy" },
-      { icon: FileText, name: "E Commerce" },
-      { icon: FileText, name: "Custom Software Development" },
-    ],
-  },
-  {
-    icon: Zap,
     title: "E commerce",
     desc: "Boost your sales potential with E commerce solutions.",
     items: [
@@ -131,7 +132,7 @@ const serviceCategories = [
       { icon: FileText, name: "Odoo" },
       { icon: FileText, name: "Sage" },
       { icon: FileText, name: "QuickBooks" },
-      { icon: FileText, name: "ZohoBooks" },  
+      { icon: FileText, name: "ZohoBooks" },
       { icon: FileText, name: "Others" },
     ],
   },
@@ -151,7 +152,7 @@ export default function Services() {
               <br />Tailored For You
             </h1>
             <p className="text-white/60 max-w-xl text-lg leading-relaxed">
-              From ERP, E Commerce, accounting, audit and tax to digital transformation, we provide comprehensive professional services to businesses across the UAE, Pakistan and the Gulf region.
+              From ERP Digital Transformation, E-Commerce, accounting, audit, tax and business advisory, we provide comprehensive professional services to businesses across the UAE, Pakistan and the Gulf region.
             </p>
           </ScrollReveal>
         </div>

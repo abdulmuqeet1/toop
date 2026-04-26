@@ -4,19 +4,19 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 
 const services = [
+  "Digital Solutions",
   "Audit & Assurance",
   "Tax Consultancy",
   "Business Advisory",
   "Company Incorporations",
   "Outsourced Accounting",
-  "Digital Solutions",
 ];
 
 const social = [
-  {"name": "facebook", "url": ""},
-  {"name": "instagram", "url": ""},
-  {"name": "linkedin", "url": ""},
-  {"name": "x", "url": ""},
+  { "name": "facebook", "url": "" },
+  { "name": "instagram", "url": "" },
+  { "name": "linkedin", "url": "" },
+  { "name": "x", "url": "" },
 ];
 
 const quickLinks = [
@@ -40,7 +40,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
-              One of the leading auditing and advisory firms in the region with specialties in auditing, taxation, accounting and business advisory.
+              FG Consulting is one of the growing ERP digital transformation, Auditing, Accounting, Taxation and Advisory firms in the region with specialties in digital solutions and business advisory.
             </p>
             <div className="flex gap-3">
               {social.map((s, idx) => (
@@ -104,7 +104,7 @@ export default function Footer() {
 
       <div className="border-t border-white/5">
         <div className="container py-5 text-center text-xs text-white/40">
-          © {new Date().getFullYear()} FG Consulting Global. All rights reserved. | 
+          © {new Date().getFullYear()} FG Consulting Global. All rights reserved. |
           {" "}<Tooltip>
             <TooltipTrigger asChild>
               <a href="https://abdulmuqeet.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white/40 transition-colors cursor-help">

@@ -19,12 +19,12 @@ import {
 } from "lucide-react";
 
 const services = [
+  { icon: Zap, title: "Digital Transformation", desc: "Modernize your business operations with technology-driven solutions." },
   { icon: Shield, title: "Audit & Assurance", desc: "External audit, internal audit, IFRS advisory, forensic audit, AML compliance and RERA audit services." },
   { icon: Calculator, title: "Tax Consultancy", desc: "Corporate tax, international taxation, transfer pricing, VAT, excise tax and customs advisory." },
   { icon: Briefcase, title: "Business Advisory", desc: "Market research, feasibility studies, CFO support, capital raising and policy manuals." },
   { icon: Building2, title: "Company Incorporations", desc: "Company formation, offshore registered agents, liquidations support and corporate restructuring." },
   { icon: BookOpen, title: "Outsourced Accounting", desc: "End-to-end accounting and bookkeeping services tailored to your business needs." },
-  { icon: Zap, title: "Digital Transformation", desc: "Modernize your business operations with technology-driven solutions."},
 ];
 
 const coreValues = [
@@ -38,8 +38,8 @@ const coreValues = [
 
 const stats = [
   { value: "10+", label: "Years of Excellence" },
-  { value: "500+", label: "Clients Served" },
-  { value: "4", label: "Regional Offices" },
+  { value: "50+", label: "Clients Served" },
+  { value: "2", label: "Regional Offices" },
   { value: "10+", label: "Expert Professionals" },
 ];
 
@@ -67,15 +67,13 @@ export default function Home() {
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] text-balance mb-6 animate-reveal"
               style={{ animationDelay: "200ms" }}
             >
-              Always Doing
-              <br />
-              The Right Thing
+              Your Digital Transformation Partner
             </h1>
             <p
               className="text-white/60 text-lg leading-relaxed max-w-xl mb-10 animate-reveal"
               style={{ animationDelay: "350ms" }}
             >
-              FG Consultant is one of the leading firms in the UAE region, committed to integrity, precision, and exceptional client service.
+              FG Consulting is one of the growing ERP digital transformation, Auditing, Accounting, Taxation and Advisory firms in the region with specialties in digital solutions and business advisory.
             </p>
             <div
               className="flex flex-wrap gap-4 animate-reveal"
@@ -121,14 +119,20 @@ export default function Home() {
             <ScrollReveal>
               <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">About Us</p>
               <h2 className="font-display text-3xl lg:text-4xl font-bold text-foreground leading-tight text-balance mb-5">
-                Trusted Advisors Since 2013
+                Trusted Advisors Since 2015
               </h2>
-              <p className="text-muted-foreground leading-relaxed mb-5">
-                FG Consultant Accounting & Auditing is one of the leading auditing and advisory firms in the region with specialties in auditing, taxation, accounting and business advisory. Our commitment to "Always Doing the Right Thing" with integrity and values for over 10 years has enabled us to establish strong relationships with stakeholders across UAE, Kuwait, Bahrain and India.
+              <p>
+                FG Consulting is one of the growing ERP digital transformation, Auditing, Accounting, Taxation and Advisory firms in the region with specialties in digital solutions and business advisory.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-8">
-                We follow a partner-led approach to ensure personal attention. Our partners come from top organizations with wide experience across Fortune 500 companies, ably supported by qualified Chartered Accountants and Consultants.
+              <br />
+              <p>
+                Our commitment to "become your digital transformation partner" with integrity and values for over 10 years has enabled us to establish strong relationships with all stakeholders, resulting in our expansion to GCC after setting up in Pakistan.
               </p>
+              <br />
+              <p>
+                We follow a partner-led approach to ensure personal attention is delivered to our clients. The members at FG Consulting come from top organizations after spending considerable time at senior positions with a wide array of companies including multi-national and global companies. They are ably supported by a team of qualified Chartered Accountants, Tech professionals, Consultants and other professionals.
+              </p>
+              <br />
               <Link
                 to="/about"
                 className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
@@ -140,10 +144,10 @@ export default function Home() {
             <ScrollReveal delay={150}>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: Globe, label: "4 Regional Offices" },
+                  { icon: Globe, label: "2 Regional Offices" },
                   { icon: Users, label: "10+ Team Members" },
-                  { icon: Award, label: "FTA Approved Agents" },
-                  { icon: CheckCircle, label: "ISO Standards" },
+                  // { icon: Award, label: "FTA Approved Agents" },
+                  // { icon: CheckCircle, label: "ISO Standards" },
                 ].map((item) => (
                   <div
                     key={item.label}
@@ -220,7 +224,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-muted">
+      {/* <section className="bg-muted">
         <div className="container py-20 lg:py-28">
           <ScrollReveal>
             <div className="text-center max-w-2xl mx-auto mb-14">
@@ -250,7 +254,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="relative bg-navy overflow-hidden">

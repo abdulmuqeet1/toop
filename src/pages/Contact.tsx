@@ -9,13 +9,13 @@ const contactInfo = [
   { icon: Phone, label: "Phone", value: "+971 55 364 3659", href: "tel:+971553643659" },
   { icon: Mail, label: "Email", value: "fgconsultingfze@gmail.com", href: "mailto:fgconsultingfze@gmail.com" },
   { icon: MapPin, label: "Address", value: "CWS-1V-223131 26th Floor, Amber Gem Tower, Ajman", href: "#" },
-  { icon: Clock, label: "Working Hours", value: "Mon – Sat: 10:00 AM – 9:00 PM", href: "#" },
+  { icon: Clock, label: "Working Hours", value: "Mon – Sat: 9:00 AM – 6:00 PM", href: "#" },
 ];
 
 const offices = [
-  { country: "UAE (Head Office)", city: "Dubai", address: "Office 805, Exchange Tower, Business Bay" },
-  { country: "Oman", city: "Muscat", address: "Regional Office" },
-  { country: "Saudi Arabia", city: "Riyadh", address: "Regional Office" },
+  { country: "UAE (Head Office)", city: "Dubai", address: "Head Office" },
+  // { country: "Oman", city: "Muscat", address: "Regional Office" },
+  // { country: "Saudi Arabia", city: "Riyadh", address: "Regional Office" },
   { country: "Pakistan", city: "Lahore", address: "Regional Office" },
 ];
 

@@ -16,20 +16,20 @@ import {
 
 
 const team = [
-  { name: "Fahad Ghafoor", credentials: "CA", role: "CEO | Auditor | Accountant | ERP Expert" },
+  { name: "Fahad Ghafoor", credentials: "CBA", role: "CEO | ERP Expert | System Auditor | Accountant" },
   { name: "Kashif Iqbal", credentials: "CA Finalist", role: "Auditor | Project Manager" },
-  { name: "Muhammad Ali", credentials: "CPA / CA Final", role: "Audit & Assurance | VAT & Corporate Tax Expert" },
+  { name: "Ali Husnain", credentials: "CA Finalist", role: "Tax Expert" },
+  { name: "Naeem Abbas", credentials: "CA Final", role: "Audit & Assurance | VAT & Corporate Tax | Real State" },
   { name: "Waqas Mehmood", credentials: "CMA | MA Economic", role: "Management Accountant | E-Commerce Expert" },
   { name: "Abdul Wahab", credentials: "MS Electrical Engineering", role: "Project Manager" },
   { name: "Malik Sadaqat", credentials: "BsIT", role: "Senior Frontend Developer" },
   { name: "Abdul Muqeet", credentials: "BsIT", role: "Tech Lead" },
   { name: "Adeela Khalid", credentials: "MSc. S.Sc | M.Ed", role: "Educational Consultant & Montessori Expert" },
   { name: "Hiba Shaber", credentials: "BA", role: "Administrator" },
-  { name: "Ali Husnain", credentials: "CA Finalist", role: "Tax Expert" },
 ];
 
 const coreValues = [
-  { icon: CheckCircle, title: "Always Do The Right Thing", desc: "We act with integrity in every decision we make." },
+  { icon: CheckCircle, title: "Your Digital Transformation Partner", desc: "We act with integrity in every decision we make." },
   { icon: Heart, title: "Ethical Conduct", desc: "Maintaining the highest ethical standards in all interactions." },
   { icon: Award, title: "Quality First", desc: "Delivering excellence and precision in every engagement." },
   { icon: Target, title: "Continuous Learning", desc: "Staying ahead through continuous professional development." },
@@ -38,11 +38,19 @@ const coreValues = [
 ];
 
 const milestones = [
-  { year: "2015", event: "Founded in Dubai, UAE with a vision to do the right thing" },
-  { year: "2018", event: "Expanded operations to Pakistan" },
-  { year: "2019", event: "Became FTA Approved Tax Agents in the UAE" },
-  { year: "2024", event: "Expanded operations in Oman and Saudia Arabia" },
-  { year: "2025", event: "Celebrated 10 years of trusted advisory services" },
+  { year: "2015", event: "Founded in Pakistan, with a vision to be your digital transformation partner" },
+  { year: "2016", event: "Developed Digital Solutions for Real Estate in Pakistan" },
+  { year: "2017", event: "Developed Digital Solutions for HORECA in Pakistan" },
+  { year: "2018", event: "Developed Digital Solutions for Education Sector in Pakistan" },
+  { year: "2019", event: "Developed Digital Solutions for Healthcare Toll Manufacturing Sector in Pakistan" },
+  { year: "2020", event: "Developed Digital Solutions for E-Commerce Sector in Pakistan" },
+  { year: "2021", event: "Developed Digital Solutions for FMCG in Pakistan" },
+  { year: "2022", event: "Launched A Market Place for Education Industry connecting students and Tutors" },
+  { year: "2023", event: "Launched AI-Powered ERP Solutions, enhancing digital transformation capabilities" },
+  { year: "2024", event: "Developed Integrated and Automated Solutions for Car Auctioners in UAE" },
+  { year: "2025", event: "Incorporated and Expanded Operations in UAE" },
+  { year: "2026", event: "Managing the implementation of Digital Transformation Project of a well known cosmetic manufacturing company in UAE" },
+
 ];
 
 export default function About() {
@@ -59,7 +67,7 @@ export default function About() {
               <br />Driven by Excellence
             </h1>
             <p className="text-white/60 max-w-xl text-lg leading-relaxed">
-              For over a decade, FG Consultant has been the trusted partner for businesses seeking audit, tax, and advisory services across the GCC region.
+              For over a decade, FG Consultant has been the trusted partner for businesses seeking digital transformatioin through ERP solutions, audit, tax, and advisory services across Pakistan and the GCC region.
             </p>
           </ScrollReveal>
         </div>
@@ -76,13 +84,13 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  FG Consultant Accounting & Auditing is one of the leading auditing and advisory firms in the region with specialties in auditing, taxation, accounting and business advisory.
+                  FG Consulting is one of the growing ERP digital transformation, Auditing, Accounting, Taxation and Advisory firms in the region with specialties in digital solutions and business advisory.
                 </p>
                 <p>
-                  Our commitment to "Always Doing the Right Thing" with integrity and values for over 10 years has enabled us to establish strong relationships with all stakeholders, resulting in our expansion to Kuwait, Bahrain, Oman and India after setting up our head office in UAE.
+                  Our commitment to "become your digital transformation partner" with integrity and values for over 10 years has enabled us to establish strong relationships with all stakeholders, resulting in our expansion to GCC after setting up in Pakistan.
                 </p>
                 <p>
-                  We follow a partner-led approach to ensure personal attention is delivered to our clients. The partners at FG Consultant come from top organizations after spending considerable time at senior positions with a wide array of companies including Fortune 500 companies. They are ably supported by a team of qualified Chartered Accountants, Consultants and other professionals.
+                  We follow a partner-led approach to ensure personal attention is delivered to our clients. The members at FG Consulting come from top organizations after spending considerable time at senior positions with a wide array of companies including multi-national and global companies. They are ably supported by a team of qualified Chartered Accountants, Tech professionals, Consultants and other professionals.
                 </p>
               </div>
             </ScrollReveal>
@@ -90,9 +98,9 @@ export default function About() {
             <ScrollReveal delay={150}>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: Globe, value: "4", label: "Regional Offices" },
+                  { icon: Globe, value: "2", label: "Regional Offices" },
                   { icon: Users, value: "10+", label: "Team Members" },
-                  { icon: Award, value: "500+", label: "Clients Served" },
+                  { icon: Award, value: "50+", label: "Clients Served" },
                   { icon: CheckCircle, value: "10+", label: "Years Experience" },
                 ].map((s) => (
                   <div key={s.label} className="bg-card rounded-2xl p-6 border border-border shadow-sm text-center">
